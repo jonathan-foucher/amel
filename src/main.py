@@ -51,7 +51,7 @@ plt.hlines(-5, 3, 13,'black')
 # L
 plt.vlines(16, -5, 10,'black')
 
-plt.hlines(-5, 16, 24,'black')
+plt.hlines(-5, 16, 25,'black')
 
 # print the result
 plt.show()

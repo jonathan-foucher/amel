@@ -5,5 +5,5 @@ pip3 install matplotlib
 
 ### run the project
 ```
-python3 src/main.py
+python3 ./src/main.py
 ```
