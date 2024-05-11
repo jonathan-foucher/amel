@@ -6,13 +6,12 @@ plt.rcParams['figure.autolayout'] = True
 
 # big curve
 t = np.linspace(0, 2 * np.pi, 1000)
-x, y = 2 * (16 * np.sin(t) ** 3), 2 * (13 * np.cos(t) - 5 * np.cos(2 * t) - 2 * np.cos(3 * t) - np.cos(4 * t))
+x, y = 16 * np.sin(t) ** 3, 13 * np.cos(t) - 5 * np.cos(2 * t) - 2 * np.cos(3 * t) - np.cos(4 * t)
 fig, ax = plt.subplots()
-ax.plot(x, y, 'r')
+ax.plot(2 * x, 2 * y, 'r')
 
 # small curve
-x, y = 0.5 * (16 * np.sin(t) ** 3), 0.5 * (13 * np.cos(t) - 5 * np.cos(2 * t) - 2 * np.cos(3 * t) - np.cos(4 * t)) - 14
-ax.plot(x, y, 'r')
+ax.plot(0.5 * x, 0.5 * y - 14, 'r')
 
 # letters
 # A
